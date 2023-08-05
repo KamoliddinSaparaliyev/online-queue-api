@@ -2,7 +2,7 @@
 
 _The Online Queuing System is a web application that allows patients to book appointments with doctors in the hospital and manage their queues efficiently. This project is built using Node.js with Express framework, MongoDB as the database, and provides a user-friendly interface for patients and doctors._
 
-**Features**
+## **Features**
 
 _-Patients can view the list of available doctors and their specializations._
 
@@ -76,7 +76,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 ## API Endpoints
 
 
-# 1. Region API:
+## 1. Region API:
 
 `GET /api/regions`: _Get the list of all regions._
 
@@ -88,7 +88,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `DELETE /api/regions/:id`: _Delete a specific region._
 
-# 2. District API:
+## 2. District API:
 
 `GET /api/districts`: _Get the list of all districts in a specific region._
 
@@ -100,7 +100,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `DELETE /api/districts/:id`: _Delete a specific district._
 
-# 3. City API:
+## 3. City API:
 
 `GET /api/cities`: _Get the list of all cities in a specific district._
 
@@ -112,7 +112,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `DELETE /api/cities/:id`: _Delete a specific city._
 
-# 4. MedicalCenter API:
+## 4. MedicalCenter API:
 
 `GET /api/medicalcenters`: _Get the list of all medical centers in a specific city._
 
@@ -124,7 +124,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `DELETE /api/medicalcenters/:id`: _Delete a specific medical center._
 
-# 5. Department API:
+## 5. Department API:
 
 `GET /api/departments`: _Get the list of all departments in a specific medical center._
 
@@ -136,7 +136,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `DELETE /api/departments/:id`: _Delete a specific department._
 
-# 6. Specialist API:
+## 6. Specialist API:
 
 `GET /api/specialists`: _Get the list of all specialists in a specific department._
 
@@ -156,7 +156,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `GET /api/specialists/interactions/:id`: _Get details of a specific interaction with a client by ID. This endpoint can provide additional information about the interaction, such as visit date, diagnosis, treatment, etc._
 
-# 7. Queue API:
+## 7. Queue API:
 
 `GET /api/queues`: _Get the queue status for a specific department in a medical center._
 
@@ -168,13 +168,13 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `GET /api/queues/:medicalCenterId/:departmentId/status`: _Get the current status of the queue for a specific department in a medical center. This endpoint can return the number of patients in the queue, the estimated wait time, or any other relevant status information._
 
-# 8. Notification API:
+## 8. Notification API:
 
 `POST /api/notifications/appointment/:id`: _Send a notification to a patient with appointment details or changes in the queue status._
 
 `POST /api/notifications/waittime`: _Send notifications to subscribed patients about changes in the wait times for their selected departments._
 
-# 9. User API:
+## 9. User API:
 
 `GET /api/users`: _Get a list of all users._
 
@@ -196,7 +196,7 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 
 `GET /api/users/interactions/:id`: _Get details of a specific interaction with a specialist by ID. This endpoint can provide additional information about the interaction, such as visit date, diagnosis, treatment, etc._
 
-# 10. Appointment API:
+## 10. Appointment API:
 
 `GET /api/appointments`: _Get a list of all appointments for a specific medical center or department._
 
