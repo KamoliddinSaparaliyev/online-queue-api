@@ -14,7 +14,7 @@
 
 1.**Clone the repository:**
 
-`git clone https://github.com/your-username/online-queuing-system.git`
+`git clone https://github.com/KamoliddinSaparaliyev/online-queue-api.git`
 
 2.**Install dependencies:**
 
@@ -27,7 +27,7 @@ Add the following environment variables:**
 
 `PORT=3000`
 
-`MONGODB_URI=mongodb://localhost:27017/queuing_system_db`
+`MONGODB_URI=mongodb://localhost:27017/queuing_db`
 
 4.**Start the application:**
 
