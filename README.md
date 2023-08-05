@@ -14,7 +14,7 @@ _-Real-time updates for patients and doctors about the queue status._
 
 _-Simple and intuitive UI for easy navigation and interaction._
 
-***Installation***
+## ***Installation***
 
 *Clone the repository:*
 
