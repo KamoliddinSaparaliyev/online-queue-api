@@ -40,38 +40,6 @@ _-Simple and intuitive UI for easy navigation and interaction._
 
 The application will be running at **`http://localhost:3000/`**.
 
-## Database Structure
-
-*The MongoDB database will have two collections: **`doctors`** and **`patients`**.*
-
-
-***doctors collection:***
-
-
-_**name**: Doctor's name *(String)*_
-
-_**specialization**: Doctor's specialization *(String)*_
-
-_**availability**: Array of available time slots *(Array of Strings)*_
-
-_**queue**: Array of patients in the queue *(Array of Objects)*_
-
-
-***patients collection:***
-
-
-**name**: _Patient's name_ *(String)*
-
-**email**: _Patient's email_ *(String)*
-
-**phone_number**: _Patient's phone number_ *(String)*
-
-**appointmen_time**: _Appointment time_ *(Date)*
-
-**doctor_id**:_Reference to the doctor the patient has an appointment with_ *(ObjectID)*
-
-**status**: _Appointment status_ `('pending', 'confirmed', 'cancelled')`
-
 
 ## API Endpoints
 
