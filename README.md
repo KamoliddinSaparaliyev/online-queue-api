@@ -9,22 +9,27 @@
 -Doctors can view and manage their appointment queue.
 -Real-time updates for patients and doctors about the queue status.
 -Simple and intuitive UI for easy navigation and interaction.*
+
 ## Installation
 
 1.**Clone the repository:**
+
 `git clone https://github.com/your-username/online-queuing-system.git`
 
 2.**Install dependencies:**
+
 `cd online-queuing-system
 npm install`
 
 3.**Set up environment variables:
 Create a .env file in the root directory.
 Add the following environment variables:**
+
 `PORT=3000
 MONGODB_URI=mongodb://localhost:27017/queuing_system_db`
 
 4.**Start the application:**
+
 `npm start`
 
 _**Database Structure**_
@@ -50,12 +55,19 @@ _The MongoDB database will have two collections:_ **doctors** _and_ **patients**
 ***API Endpoints***
 
 **`GET /api/doctors`**: Get the list of available doctors and their specializations.
+
 **`GET /api/doctors/:id`**: Get details of a specific doctor by ID.
+
 **`POST /api/doctors/:id/book`**: Book an appointment with a doctor.
+
 **`GET /api/doctors/:id/queue`:** Get the current queue of a specific doctor.
+
 **`PUT /api/doctors/:id/queue`**: Update the queue (for doctors to manage appointments).
+
 **`GET /api/patients`**: Get the list of all patients and their appointments.
+
 **`GET /api/patients/:id`**: Get details of a specific patient by ID.
+
 
 
 
