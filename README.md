@@ -38,7 +38,8 @@ _**Database Structure**_
 _The MongoDB database will have two collections:_ **doctors** _and_ **patients**
 
 
-***doctors collection:***
+#***doctors collection:***
+
 
 **name**: Doctor's name (String)
 
@@ -49,7 +50,8 @@ _The MongoDB database will have two collections:_ **doctors** _and_ **patients**
 **queue**: Array of patients in the queue (Array of Objects)
 
 
-***patients collection:***
+#***patients collection:***
+
 
 **name**: Patient's name (String)
 
