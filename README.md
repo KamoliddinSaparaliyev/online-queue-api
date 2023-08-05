@@ -37,21 +37,32 @@ _**Database Structure**_
 
 _The MongoDB database will have two collections:_ **doctors** _and_ **patients**
 
+
 ***doctors collection:***
 
 **name**: Doctor's name (String)
+
 **specialization**: Doctor's specialization (String)
+
 **availability**: Array of available time slots (Array of Strings)
+
 **queue**: Array of patients in the queue (Array of Objects)
+
 
 ***patients collection:***
 
 **name**: Patient's name (String)
+
 **email**: Patient's email (String)
+
 **phone_number**: Patient's phone number (String)
+
 **appointmen_time**: Appointment time (Date)
+
 **doctor_id**: Reference to the doctor the patient has an appointment with (ObjectID)
+
 **status**: Appointment status ('pending', 'confirmed', 'cancelled')
+
 
 ***API Endpoints***
 
