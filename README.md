@@ -71,9 +71,15 @@ _**queue**: Array of patients in the queue *(Array of Objects)*_
 ## API Endpoints
 
 `GET /api/doctors:` *Get the list of available doctors and their specializations.*
+
 `GET /api/doctors/:id:` *Get details of a specific doctor by ID.*
+
 `POST /api/doctors/:id/book:` *Book an appointment with a doctor.*
+
 `GET /api/doctors/:id/queue:` *Get the current queue of a specific doctor.*
+
 `PUT /api/doctors/:id/queue:` *Update the queue (for doctors to manage appointments).*
+
 `GET /api/patients:` *Get the list of all patients and their appointments.*
+
 `GET /api/patients/:id:` *Get details of a specific patient by ID.*
