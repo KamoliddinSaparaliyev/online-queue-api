@@ -25,8 +25,9 @@ npm install`
 Create a `.env` file in the root directory.
 Add the following environment variables:**
 
-`PORT=3000
-MONGODB_URI=mongodb://localhost:27017/queuing_system_db`
+`PORT=3000`
+
+`MONGODB_URI=mongodb://localhost:27017/queuing_system_db`
 
 4.**Start the application:**
 
