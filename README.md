@@ -41,29 +41,29 @@ _The MongoDB database will have two collections:_ **doctors** _and_ **patients**
 ### ***doctors collection:***
 
 
-**name**: Doctor's name (String)
+**name**: _Doctor's name (String)_
 
-**specialization**: Doctor's specialization (String)
+**specialization**: _Doctor's specialization (String)_
 
-**availability**: Array of available time slots (Array of Strings)
+**availability**: _Array of available time slots (Array of Strings)_
 
-**queue**: Array of patients in the queue (Array of Objects)
+**queue**: _Array of patients in the queue (Array of Objects)_
 
 
 ### ***patients collection:***
 
 
-**name**: Patient's name (String)
+**name**: _Patient's name (String)_
 
-**email**: Patient's email (String)
+**email**: _Patient's email (String)_
 
-**phone_number**: Patient's phone number (String)
+**phone_number**: _Patient's phone number (String)_
 
-**appointmen_time**: Appointment time (Date)
+**appointmen_time**: _Appointment time (Date)_
 
-**doctor_id**: Reference to the doctor the patient has an appointment with (ObjectID)
+**doctor_id**: _Reference to the doctor the patient has an appointment with (ObjectID)_
 
-**status**: Appointment status ('pending', 'confirmed', 'cancelled')
+**status**: _Appointment status ('**pending**', '**confirmed**', '**cancelled**')_
 
 
 ***API Endpoints***
