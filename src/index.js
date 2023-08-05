@@ -1,15 +1,14 @@
 const express = require("express");
 const db = require("./db");
 const config = require("./shared/config");
-// const handleError = require("./shared/errors/handle");
+const handleError = require("./shared/errors/handle");
 
 
 const app = express();
 
 app.use(express.json());
 
-
-// app.use(handleError);
+app.use(handleError);
 
 db().then(() => {
   app.listen(config.port, () => {
